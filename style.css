@@ -1,0 +1,380 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-color
+{
+    background-color: #241c4f!important;
+}
+
+.bg-color-2
+{
+    background-color: #c98f00!important;
+}
+
+.bg-color-3
+{
+    background-color: #fce6d4!important;
+}
+
+.bg-color-4
+{
+    background-color: #ffdf90!important;
+}
+
+.color
+{
+    color: #c98f00!important;
+}
+
+.color-2
+{
+    color: #241c4f!important;
+}
+
+
+.cards
+{
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+
+
+/* Navbar Expand text */
+.nav-link
+{
+    font-weight: 900;
+    color: #c98f00!important;
+    font-size: larger;
+}
+
+.big-logo
+{
+    width: 200px;
+    height: 75px;
+}
+
+
+.brand-img
+{
+    width: 85px;
+    height: 85px;
+}
+
+.brand-text
+{
+    font-size: 15px;
+}
+
+.card-text-2
+{
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.card-text-3
+{
+    font-size: 16px;
+}
+
+
+#noHeart
+{
+    color: rgb(180, 180, 180);
+}
+
+#heart
+{
+    color: rgb(192, 2, 59);
+    font-size: medium;
+}
+
+#custom-slider
+{
+    height: 400px;
+}
+
+
+
+.h5-footer
+{
+    border-top: 1px solid #c98f00;
+    margin: 0 25%;
+}
+
+
+.h6-footer
+{
+    border-top: 1px solid #c98f00;
+    margin: 0 35%;
+}
+
+.fb-footer
+{
+    text-decoration: none;
+    color: #c98f00;
+}
+
+.brand-link
+{
+    text-decoration: none;
+    color: #241c4f;
+}
+
+.cursor
+{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1350px){
+
+
+/* Navbar Expand text */
+.nav-link
+{
+    font-size: x-large;
+}
+
+.big-logo
+{
+    width: 220px;
+    height: 80px;
+}
+
+.brand-img
+{
+    width: 110px;
+    height: 110px;
+}
+
+.brand-text
+{
+    font-size: 18px;
+}
+
+.card-text-2
+{
+    font-size: 22px;
+}
+
+.card-text-3
+{
+    font-size: 19px;
+}
+
+#custom-slider
+{
+    height: 500px;
+}
+}
+
+
+
+@media screen and (min-width: 1500px){
+
+
+    /* Navbar Expand text */
+    .nav-link
+    {
+        font-size: 27px;
+    }
+    
+    .big-logo
+    {
+        width: 280px;
+        height: 100px;
+    }
+
+
+    .brand-img
+    {
+        width: 115px;
+        height: 115px;
+    }
+    
+    .brand-text
+    {
+        font-size: 20px;
+    }
+
+    .card-text-2
+    {
+        font-size: 23px;
+    }
+    
+    .card-text-3
+    {
+        font-size: 20px;
+    }
+    #custom-slider
+    {
+        height: 500px;
+    }
+
+    
+.h5-footer
+{
+    margin: 0 30%;
+    font-size: 19px;
+}
+
+
+.h6-footer
+{
+    margin: 0 35%;
+    font-size: large;
+}
+    }
+    
+    
+
+@media screen and (min-width: 2000px){
+
+
+    /* Navbar Expand text */
+    .nav-link
+    {
+        font-size: 35px;
+    }
+    
+    .big-logo
+    {
+        width: 340px;
+        height: 130px;
+    }
+
+
+    .brand-img
+    {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .brand-text
+    {
+        font-size: 28px;
+    }
+
+    .card-text-2
+    {
+        font-size: 29px;
+    }
+    
+    .card-text-3
+    {
+        font-size: 25px;
+    }
+
+    #custom-slider
+    {
+        height: 700px;
+    }
+    }
+    
+
+
+@media screen and (max-width: 991px) {
+
+    .small-logo
+    {
+        width: 135px;
+        height: 55px;
+        
+    }
+    
+    /* Navbar Collapse font */
+    .nav-toggler-font{
+        font-size: 16px;
+    }
+    
+    .brand-img
+    {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .brand-text
+    {
+        font-size: 15px;
+    }
+
+    .card-text-2
+    {
+        font-size: 17px;
+    }
+    
+    .card-text-3
+    {
+        font-size: 14px;
+    }
+
+    #custom-slider
+    {
+        height: 300px;
+    }
+    } 
+    
+    
+    
+
+
+@media screen and (max-width: 550px) {
+
+.small-logo
+{
+    width: 125px;
+    height: 50px;
+    
+}
+
+/* Navbar Collapse font */
+.nav-toggler-font{
+    font-size: 14px;
+}
+
+
+.brand-img
+{
+    width: 45px;
+    height: 45px;
+}
+
+.brand-text
+{
+    font-size: 10px;
+}
+
+.card-text-2
+{
+    font-size: 15px;
+}
+
+.card-text-3
+{
+    font-size: 12px;
+}
+
+#custom-slider
+{
+    height: 180px;
+}
+
+
+.h5-footer
+{
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.h6-footer
+{
+    margin: 0;
+    font-size: medium;
+}
+} 
+
+
+
